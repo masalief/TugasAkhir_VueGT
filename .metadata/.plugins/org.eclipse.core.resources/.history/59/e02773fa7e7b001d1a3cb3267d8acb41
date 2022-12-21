@@ -1,0 +1,8 @@
+package com.example.backendtugasakhir.repository;
+
+public interface IAnggotaKeluargaModelRepo {
+	public anggotakeluargamodel insertAnggotakeluarga (anggotakeluargamodel anggotakeluarga);
+	public List<anggotakeluargamodel> getAllanggota();
+	public anggotakeluargamodel updateAnggota(long id, anggotakeluargamodel anggotakeluarga);
+	public anggotakeluargamodel deleteAnggota (long id);
+}
